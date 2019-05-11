@@ -135,6 +135,7 @@ namespace Lab1
             Console.WriteLine($"Symbol:{match.Symbol}" +
                 $" Last:{match.MatchPrice} x {match.MatchQty}" +
                 $" Volume:{match.Volume}" + "high:" + high + "low:" + low);
+            //123
         }
     }
 }
